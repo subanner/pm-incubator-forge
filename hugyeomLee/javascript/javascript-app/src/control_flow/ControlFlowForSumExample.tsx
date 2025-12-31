@@ -1,4 +1,4 @@
-export const ControlFlowForExample = () => {
+export const ControlFlowForSumExample = () => {
     let LoopResultArray = []
     let summation = 0
 
