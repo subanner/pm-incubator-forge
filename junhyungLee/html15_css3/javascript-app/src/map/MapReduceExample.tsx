@@ -11,7 +11,7 @@ export const MapReduceExample = () => {
   
     return (
     <div>
-        <h3>javascript Map Function</h3>
+        <h3>javascript Reduce Function</h3>
 
             <pre>{
                `               
