@@ -23,11 +23,12 @@ export const ControlFlowForSummation = () => {
    
    // i = 1 일 때
    // summation = 0 (summation) + 1(LoopResultArray[0])
+   // summation 이 0인 이유는 아직 누적 값 없어서 초기 설정한 0
    // + 1 하는 이유
    // loopResultArray[i - 1] 에서 loopResultArray[1 - 1] 인데
    // loopResultArray[0] 이건 뭐지?
-   // 배열의 시작 인덱스 0부터입니다.
-   // 연산 이후 summation은 1이 됩니다.
+   // 배열의 시작은 인덱스 0부터임 ->  [1, 2, 3] 중 첫번째로 push된 i 값은 1
+   // 따라서 연산 이후 summation은 1이 됩니다.
 
    // i = 2 일 때
    // summation = 1(summation)
