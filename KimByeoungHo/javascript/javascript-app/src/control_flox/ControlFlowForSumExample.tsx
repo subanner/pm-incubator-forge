@@ -23,8 +23,17 @@ export const ControlFlowForSumExample = () => {
         // summation = 4 + 5(loopResultArray[2]) = 9
     }
 
-    // 결과는 전부 동일합니다.(동의어1)
-    // 
+     // 결과는 전부 동일합니다. (동의어 1)
+    // for (let i = 1, j = 1; j <= 3; i += 2, j++) {
+    //     loopResultArray.push(i)
+    //     summation += loopResultArray[j - 1]
+    // }
+
+    // 결과는 전부 동일합니다. (동의어 2)
+    // for (let i = 1, j = 1; i <= 5; i += 2, j++) {
+    //     loopResultArray.push(i)
+    //     summation += loopResultArray[j - 1]
+    // }
 
     return (
         <div>

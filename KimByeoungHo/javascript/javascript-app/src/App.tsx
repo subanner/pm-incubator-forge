@@ -8,6 +8,7 @@ import { ControlFlowSwitch } from './control_flox/ControlFlowSwitch'
 import { ControlFlowFor } from './control_flox/ControlFlowFor'
 import { ControlFlowForSummation } from './control_flox/ControlFlowForSummation'
 import { ControlFlowForSumExample } from './control_flox/ControlFlowForSumExample'
+import SecondProblem from './problem/SecondProblem'
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <ControlFlowFor/>
         <ControlFlowForSummation/>
         <ControlFlowForSumExample/>
+        <SecondProblem/>
       </div>
     </>
   )
