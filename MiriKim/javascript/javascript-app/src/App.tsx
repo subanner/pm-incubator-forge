@@ -7,6 +7,9 @@ import { ControlFlowIf } from './control_flow/ControlFlowIf.tsx'
 import { FirstProblem } from './quiz/FirstProblem'
 import { ControlFlowSwitch } from './control_flow/ControlFlowIfSwitch'
 
+import { ControlFlowFor } from './control_flow/ControlFlowFor'
+import { ControlFlowForSummation } from './control_flow/ControlFlowForSummation'
+
 function App() {
  
 
@@ -21,8 +24,12 @@ function App() {
         <VariableAndDataType/>
         <LogicalOperationExample/>
         <ControlFlowIf/>
+        
         <FirstProblem/>
         <ControlFlowSwitch/>
+
+        <ControlFlowFor/>
+        <ControlFlowForSummation/>
       </div>
     </>
   )
