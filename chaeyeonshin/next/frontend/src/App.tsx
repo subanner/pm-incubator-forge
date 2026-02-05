@@ -10,6 +10,48 @@ type Post = {
 
 const mockPosts: Post[] = [
   {
+    id: 110,
+    title: 'React 19의 새로운 기능들',
+    author: '김리액트',
+    date: '2024-03-15',
+    views: 1250,
+  },
+  {
+    id: 109,
+    title: 'Vite로 빠른 개발 환경 구축하기',
+    author: '박빌드',
+    date: '2024-03-12',
+    views: 892,
+  },
+  {
+    id: 108,
+    title: 'TypeScript와 함께하는 안전한 코딩',
+    author: '이타입',
+    date: '2024-03-10',
+    views: 654,
+  },
+  {
+    id: 107,
+    title: 'CSS Grid 완벽 가이드',
+    author: '최스타일',
+    date: '2024-03-08',
+    views: 523,
+  },
+  {
+    id: 106,
+    title: '웹 접근성 개선하기',
+    author: '정접근',
+    date: '2024-03-05',
+    views: 445,
+  },
+  {
+    id: 105,
+    title: '성능 최적화 베스트 프랙티스',
+    author: '강최적',
+    date: '2024-03-03',
+    views: 678,
+  },
+  {
     id: 104,
     title: 'Next.js로 블로그 시작하기',
     author: '강개발',
