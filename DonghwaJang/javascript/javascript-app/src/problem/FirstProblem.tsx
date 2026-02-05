@@ -3,9 +3,9 @@ export const FirstProblem = () => {
     let result;
 
     if(x > 6) {
-        result = "hello"
+        result = "Hello"
     } else {
-        result = "hi"
+        result = "Hi"
     }
     let ternaryResult = x > 6 ? "Hello" : "Hi"
     return (
